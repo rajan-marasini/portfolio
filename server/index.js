@@ -16,7 +16,11 @@ app.use(
     cors({
         credentials: true,
         preflightContinue: true,
-        origin: "https://portfolio-client-omega.vercel.app",
+        origin: [
+            "https://portfolio-client-omega.vercel.app",
+            "https://portfolio-razan-marasinis-projects.vercel.app/",
+            "https://portfolio-git-main-razan-marasinis-projects.vercel.app/",
+        ],
     })
 );
 app.use(morgan("dev"));
