@@ -8,7 +8,8 @@ import App from "./App.jsx";
 import { UserContextProvider } from "./Context/userContext.jsx";
 import "./index.css";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL =
+    "https://portfolio-server-razan-marasinis-projects.vercel.app";
 axios.defaults.withCredentials = true;
 
 ReactDOM.createRoot(document.getElementById("root")).render(

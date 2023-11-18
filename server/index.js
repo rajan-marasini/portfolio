@@ -16,7 +16,7 @@ app.use(
     cors({
         credentials: true,
         preflightContinue: true,
-        origin: "http://localhost:5173",
+        origin: "https://portfolio-client-omega.vercel.app",
     })
 );
 app.use(morgan("dev"));
