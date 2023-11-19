@@ -107,9 +107,9 @@ const Hero = () => {
                     </div>
 
                     <div className="more">
-                        <a href="#about">
-                            <button className="bg-primary px-6 py-2 rounded-full hover:bg-transparent hover:text-primary border-2 border-transparent font-semibold text-xl hover:border-primary transition-all duration-300 ease-in mt-10">
-                                More About Me
+                        <a href="#contact">
+                            <button className="bg-primary px-10 py-2 rounded-full hover:bg-transparent hover:text-primary border-2 border-transparent font-semibold text-xl hover:border-primary transition-all duration-300 ease-in mt-10">
+                                Contact Me
                             </button>
                         </a>
                     </div>
