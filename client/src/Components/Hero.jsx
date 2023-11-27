@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { useTypewriter } from "react-simple-typewriter";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Hero = () => {
     const [text] = useTypewriter({
@@ -30,6 +30,7 @@ const Hero = () => {
                         I Am <br />
                         <div className="text-primary whitespace-nowrap h-16 w-full">
                             <span>{text}</span>
+                            <Cursor cursorColor="white" />
                         </div>
                     </h1>
                     <p className="text-white">
