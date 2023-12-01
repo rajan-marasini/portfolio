@@ -40,7 +40,7 @@ const Projects = () => {
                                         target="_blank"
                                         className="flex items-center gap-2"
                                     >
-                                        Visit link <FaArrowRight />
+                                        Live Demo <FaArrowRight />
                                     </a>
                                 </button>
                             </div>

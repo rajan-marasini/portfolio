@@ -44,16 +44,17 @@ export const projects = [
     },
     {
         id: 7,
+        title: "To Do List",
+        des: "This project is done by using only the vanilla javascript. The list items are saved in localstorage so that it can remain although we refresh.",
+        link: "https://rajan-marasini.github.io/to-do-list/",
+        src: "/to-do-list.png",
+    },
+
+    {
+        id: 8,
         title: "TicTacToe",
         des: "This is a tictactoe game. which can be played between two people. It is created using html, css and javascript",
         link: "https://rajan-marasini.github.io/tic-tac-toe/",
         src: "/tictactoe.png",
-    },
-    {
-        id: 8,
-        title: "Calculator",
-        des: "This is a simple Calculator which is created using html, css and javascript",
-        link: "https://rajan-marasini.github.io/calculator/",
-        src: "/calc.png",
     },
 ];
