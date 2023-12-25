@@ -80,7 +80,7 @@ const Contact = () => {
                         Enter Your message
                     </label>
                     <textarea
-                        className=" flex h-[150px] w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1"
+                        className=" flex h-[150px] w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 resize-none"
                         placeholder="Enter your Message"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}

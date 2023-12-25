@@ -7,11 +7,11 @@ const Projects = () => {
     return (
         <div id="projects">
             <h1 className="text-3xl font-bold">My Projects</h1>
-            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4 gap-y-8">
                 {projects &&
                     projects.map((project) => (
                         <motion.div
-                            className="relative rounded-lg h-80 w-full"
+                            className="relative rounded-lg h-80 w-full hover:scale-105 transition-all duration-300"
                             key={project.id}
                             initial={{ opacity: 0, top: "100px" }}
                             whileInView={{ opacity: 1, top: "0px" }}
@@ -28,10 +28,10 @@ const Projects = () => {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent" />
                             <div className="absolute bottom-4 left-4 text-left">
-                                <h1 className="text-lg font-semibold text-primary">
+                                <h1 className="text-xl font-extrabold text-primary">
                                     {project.title}
                                 </h1>
-                                <p className="mt-2 text-sm text-gray-300">
+                                <p className="mt-2 text-sm text-slate-400">
                                     {project.des}
                                 </p>
                                 <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">

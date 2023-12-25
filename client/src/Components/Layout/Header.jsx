@@ -50,7 +50,7 @@ const Header = () => {
                 </a>
 
                 <a href="#projects">
-                    <span className="hover:text-primary cursor-pointer">
+                    <span className="hover:text-primary transition-all duration-300 cursor-pointer">
                         Projects
                     </span>
                 </a>
@@ -75,7 +75,7 @@ const Header = () => {
                 )}
 
                 <a href="#contact">
-                    <span className="hover:bg-primary px-8 py-2 rounded-full text-primary hover:text-white border-2 border-primary hover:border-white cursor-pointer transition-all duration-300 ease-in">
+                    <span className="hover:bg-primary px-8 py-2 rounded-full text-primary hover:text-white border-2 border-primary hover:border-transparent cursor-pointer transition-all duration-300 ease-in">
                         Contact
                     </span>
                 </a>
